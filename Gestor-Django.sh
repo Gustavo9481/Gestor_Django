@@ -166,7 +166,7 @@ function new-project(){
     touch base.html
     echo "${html_base}" > base.html
     eval "cd ${ruta_root}"
-    echo "${grey}------------------------------${blanco}Nuevo Entorno:${green} Proyecto_$1{blanco}"
+    echo "${grey}------------------------------${blanco}Nuevo Entorno:${green} Proyecto_$1${blanco}"
     echo "Se han creados las Carpetas: static - templates"
 }
 
